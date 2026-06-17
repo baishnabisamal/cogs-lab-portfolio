@@ -8,12 +8,16 @@
 <img width="1082" height="261" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/7a1d3c59-1500-4365-8c01-69d381a83a3c" />
 
 ## Certificate details documented: 
--Subject: C = IN, ST = Karnataka, L = Bangalore, O = InstaSafe Lab, CN = 16.171.197.113
--Issuer: C = IN, ST = Karnataka, L = Bangalore, O = InstaSafe Lab, CN = 16.171.197.113
--Key algorithm: rsaEncryption 
--Expiry date: Jun 17 07:08:01 2027 GMT
+#### -Subject: C = IN, ST = Karnataka, L = Bangalore, O = InstaSafe Lab, CN = 16.171.197.113
+#### -Issuer: C = IN, ST = Karnataka, L = Bangalore, O = InstaSafe Lab, CN = 16.171.197.113
+Same as the Subject, meaning the certificate is self-signed. It was created and signed by InstaSafe Lab rather than by a trusted Certificate Authority (CA).
+#### -Key algorithm: rsaEncryption 
+The certificate uses the RSA public-key cryptographic algorithm for authentication and secure key exchange
+#### -Expiry date: Jun 17 07:08:01 2027 GMT
+The certificate remains valid until this date and time. After expiration, clients such as curl or web browsers will reject it unless a new certificate is installed.
 
 ## Why does curl without -k fail? What would need to change to make it succeed?
+#### curl without the -k option fails because it verifies the server’s SSL/TLS certificate to ensure a secure and trusted connection. If the certificate is self-signed, expired, has a hostname mismatch, or lacks a complete certificate chain, the verification fails and the connection is rejected. The -k option bypasses these security checks. To make the command succeed without -k, the server must present a valid certificate issued by a trusted certificate authority, provide the full certificate chain, and use a hostname that matches the certificate. The client system must also trust the issuing certificate authority.
 
 
 ## Screenshot: openssl s_client output showing certificate details
