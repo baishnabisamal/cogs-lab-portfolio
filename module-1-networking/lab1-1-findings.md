@@ -16,7 +16,21 @@
 
 ### DNS Comparison
 - Result from default DNS: 
-- Result from 1.1.1.1: ___
+Server: 127.0.0.53
+Address: 127.0.0.53#53
+Non-authoritative answer:
+Name: google.com
+Address: 142.251.38.110
+Name: google.com
+Address: 2a00:1450:400f:80f::200e
+- Result from 1.1.1.1: 
+Server: 1.1.1.1
+Address: 1.1.1.1#53
+Non-authoritative answer:
+Name: google.com
+Address: 142.251.143.142
+Name: google.com
+Address: 2a00:1450:400f:806::200e
 - Are they different? Why might they differ?: Yes. the address differs because default DNS and 1.1.1.1 use different server infrastuctures and locations. Each DNS provider resolves domains to their nearest or preffered server, so default DNS routes to one IP while 1.1.1.1 rounts to another
 
 ### google.com TLS Certificate
