@@ -22,7 +22,7 @@ Network bytes in (like bandwidth monitoring):
 
 ## Grafana dashboard built with at least 3 panels — screenshot
 <img width="1920" height="882" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/d7083e2e-2d84-40a4-9c5c-381e21b571b5" />
-<img width="1920" height="882" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/6c578a04-7cda-4642-a848-e489462a09ee" />
+<img width="1920" height="911" alt="Screenshot (270)" src="https://github.com/user-attachments/assets/17371bca-7608-4742-9be6-4e8fb5662611" />
 
 ## Written in portfolio: 'What is the difference between what Prometheus/Grafana shows and what SigNoz shows? When would you use each during a P1 incident?'
 Prometheus and Grafana focus on collecting and visualizing metrics such as CPU, memory, disk, network usage, and custom application metrics.
