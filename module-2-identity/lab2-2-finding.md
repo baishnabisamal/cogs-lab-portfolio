@@ -1,3 +1,4 @@
+# Lab 2.2 Findings
 ## Keycloak running — login to admin console works, screenshot of realm dashboard
 <img width="1920" height="946" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/95d668e3-4620-44b6-94f7-d721c8897155" />
 <img width="1920" height="961" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/a976ac80-4310-4f93-9665-16f48ad1ff91" />
