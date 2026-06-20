@@ -8,6 +8,7 @@
 #   3. Test config with nginx -t
 #   4. Reload nginx
 #   5. Verify TLS 1.3 is working
+#   6. Status: COMPLETED
 # Rollback Trigger: If TLS verification fails or site becomes unreachable
 # Rollback Steps:
 #   1. sudo cp /etc/nginx/nginx.conf.backup /etc/nginx/nginx.conf
