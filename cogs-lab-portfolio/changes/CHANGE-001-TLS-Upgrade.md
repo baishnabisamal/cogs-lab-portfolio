@@ -14,5 +14,6 @@
 #   1. sudo cp /etc/nginx/nginx.conf.backup /etc/nginx/nginx.conf
 #   2. sudo nginx -t && sudo systemctl reload nginx
 # Rollback Time: 2 minutes
+# Rollback executed after bad config test
 # Maintenance Window: Immediate (lab environment — no customer impact)
 
