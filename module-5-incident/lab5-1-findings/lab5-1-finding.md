@@ -1,6 +1,6 @@
 # Lab 5.1 Findings
 
-## Uptime Kuma red alert with timestamp
+## Screenshot:Uptime Kuma red alert with timestamp
 <img width="1895" height="1026" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/f067bb40-46f9-4c36-98c5-24a092ab1ff7" />
 ## Screenshot: GitHub P1 ticket with creation time visible
 <img width="1920" height="960" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/e645c90d-dc81-4135-807e-d54565e8b63b" />
