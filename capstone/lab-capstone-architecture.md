@@ -5,10 +5,10 @@
 ### Curl Proof
 <img width="1449" height="726" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/1b185bd2-1527-48d3-9a16-86e6607347fd" />
 <img width="1455" height="707" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/ea5fd74e-ad6c-47b1-bfdf-79def0907dd9" />
-<img width="1455" height="707" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/8103ce2d-1da5-49f0-94e3-76b8931bee25" />
+<img width="1463" height="709" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/0d206c89-4a31-4d79-8302-85e318abcca5" />
 
 ### Wireguard Handshake
-<img width="1455" height="707" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/8af653e2-545f-4796-aec0-f062580104d1" />
+<img width="1782" height="296" alt="Screenshot (349)" src="https://github.com/user-attachments/assets/e617888d-913c-4b3f-b41d-81b620a4334e" />
 
 ### Uptime Kuma Dashboard
 <img width="1920" height="816" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/abced39a-35e6-4cb7-8d0e-4bf6f50df4c8" />
@@ -26,7 +26,7 @@
 
 When I started this capstone, Zero Trust was just a term I had read about. By the end of it, I had actually built one — two AWS servers, a VPN tunnel, a reverse proxy, an identity provider, and a monitoring stack all working together. It is not a perfect ZTNA, but it is real enough that I can now look at an InstaSafe support ticket and picture exactly what is happening under the hood.
 
-The part that clicked for me first was WireGuard. Before this lab, I thought of VPNs as something you just install and it works. Building it from scratch — generating key pairs, writing the config file, watching the handshake appear in `wg show` — made me understand why a "VPN not connecting" ticket is almost always a key mismatch or a firewall blocking UDP 51820. Those two things cover about 90% of tunnel failures. I would not have known that without debugging my own setup for an hour.
+The part that clicked for me first was WireGuard. Before this lab, I thought of VPNs as something you just install and it works. Building it from scratch — generating key pairs, writing the config file, watching the handshake appear in `wg show` — made me understand why a "VPN not connecting" ticket is almost always a key mismatch or a firewall blocking UDP 51820. Those two things cover a lot about tunnel failures. I would not have known that without debugging my own setup for an hour.
 
 The WireGuard tunnel in this lab is doing the same job as the InstaSafe Agent on a user's laptop. The Agent creates an encrypted connection to the Gateway, exactly like my laptop's WireGuard client connects to VM2. Every packet between my laptop and VM2 is encrypted with ChaCha20 — nobody on the network between us can read it. That is the whole point of Zero Trust: do not trust the network, encrypt everything regardless.
 
