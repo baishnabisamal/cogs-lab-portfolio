@@ -11,14 +11,14 @@
 <img width="1782" height="296" alt="Screenshot (349)" src="https://github.com/user-attachments/assets/e617888d-913c-4b3f-b41d-81b620a4334e" />
 
 ### Uptime Kuma Dashboard
-<img width="1920" height="816" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/abced39a-35e6-4cb7-8d0e-4bf6f50df4c8" />
-<img width="1920" height="823" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/bf4fed42-f7ea-4cf7-92bd-830e1a79b8c3" />
+<img width="1861" height="920" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/2b51bd01-644c-41ca-b49f-34e0a6719266" />
+
 
 ### Ping from laptop
 <img width="1263" height="351" alt="Screenshot (347)" src="https://github.com/user-attachments/assets/00710434-dbcd-43d5-9b10-4994c907bf7c" />
 
 ## Architecture diagram 
-<img width="1129" height="763" alt="capstonedrawio" src="https://github.com/user-attachments/assets/f106619d-45e6-4706-a59f-3df389140135" />
+<img width="1119" height="762" alt="architecture" src="https://github.com/user-attachments/assets/1f2f6afa-e816-460d-b08e-8d3e9e0d1bef" />
 
 ## How does this mini-ZTNA map to the real InstaSafe product?What is missing compared to a production deployment?
 
